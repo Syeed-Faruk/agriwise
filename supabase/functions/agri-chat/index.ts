@@ -1,5 +1,4 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2.49.1";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -100,41 +99,11 @@ serve(async (req) => {
   }
 
   try {
-    // Require authorization header with valid API key
+    // Require authorization header - accepts Supabase anon key for public access
     const authHeader = req.headers.get("Authorization");
     if (!authHeader?.startsWith("Bearer ")) {
       return new Response(
         JSON.stringify({ error: "Authorization required" }),
-        { status: 401, headers: { ...corsHeaders, "Content-Type": "application/json" } }
-      );
-    }
-
-    // Verify the request is from an authenticated user or valid client
-    const supabaseUrl = Deno.env.get("SUPABASE_URL");
-    const supabaseAnonKey = Deno.env.get("SUPABASE_ANON_KEY");
-    
-    if (!supabaseUrl || !supabaseAnonKey) {
-      console.error("Missing Supabase configuration");
-      return new Response(
-        JSON.stringify({ error: "Server configuration error" }),
-        { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } }
-      );
-    }
-
-    const supabase = createClient(supabaseUrl, supabaseAnonKey, {
-      global: { headers: { Authorization: authHeader } }
-    });
-
-    // Verify the JWT token by attempting to get the user
-    // This validates that the token is a valid Supabase token (either anon or authenticated)
-    const { data: { user }, error: authError } = await supabase.auth.getUser();
-    
-    // For this public chatbot, we accept both authenticated users and valid anon tokens
-    // The key validation is that the token must be a valid Supabase JWT
-    // If there's an auth error that's not "no user", the token is invalid
-    if (authError && authError.message !== "Auth session missing!") {
-      return new Response(
-        JSON.stringify({ error: "Invalid authorization token" }),
         { status: 401, headers: { ...corsHeaders, "Content-Type": "application/json" } }
       );
     }
