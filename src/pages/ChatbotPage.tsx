@@ -188,7 +188,7 @@ export default function ChatbotPage() {
                 <Bot className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <CardTitle className="text-lg">AgriWise Assistant</CardTitle>
+                <CardTitle className="text-lg">FarmSense Assistant</CardTitle>
                 <CardDescription>Powered by AI</CardDescription>
               </div>
               <div className="ml-auto">

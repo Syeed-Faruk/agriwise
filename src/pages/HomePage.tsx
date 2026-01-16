@@ -115,7 +115,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
-              How AgriWise Helps You
+              How FarmSense Helps You
             </h2>
             <p className="text-muted-foreground text-lg">
               Three powerful tools to support your farming journey
@@ -170,7 +170,7 @@ export default function HomePage() {
               
               <p className="text-muted-foreground text-lg">
                 SDG 2 aims to end hunger, achieve food security, improve nutrition, and promote 
-                sustainable agriculture. AgriWise supports this mission by providing farmers with 
+                sustainable agriculture. FarmSense supports this mission by providing farmers with 
                 accessible, AI-powered tools for better decision-making.
               </p>
 
@@ -202,7 +202,7 @@ export default function HomePage() {
                     Advisory, Not Compulsory
                   </h3>
                   <p className="text-muted-foreground">
-                    AgriWise provides guidance and simulations to support your decisions. 
+                    FarmSense provides guidance and simulations to support your decisions.
                     All results are estimates meant to inform, not dictate. The final 
                     choice always remains with you, the farmer.
                   </p>

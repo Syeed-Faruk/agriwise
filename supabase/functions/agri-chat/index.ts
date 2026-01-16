@@ -6,7 +6,7 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
-const SYSTEM_PROMPT = `You are AgriWise, a friendly and knowledgeable AI agricultural assistant. Your role is to help farmers and agricultural enthusiasts with:
+const SYSTEM_PROMPT = `You are FarmSense, a friendly and knowledgeable AI agricultural assistant. Your role is to help farmers and agricultural enthusiasts with:
 
 1. **Crop Selection**: Recommend suitable crops based on soil type, climate, and water availability
 2. **Soil Management**: Provide guidance on soil health, fertilization, and amendments

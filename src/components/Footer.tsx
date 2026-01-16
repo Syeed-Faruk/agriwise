@@ -12,7 +12,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-primary-foreground/20 flex items-center justify-center">
                 <Leaf className="w-5 h-5" />
               </div>
-              <span className="font-serif font-bold text-xl">AgriWise</span>
+              <span className="font-serif font-bold text-xl">FarmSense</span>
             </div>
             <p className="text-primary-foreground/80 text-sm max-w-xs">
               AI-powered agricultural support for sustainable farming decisions.
@@ -47,7 +47,7 @@ export function Footer() {
         <div className="border-t border-primary-foreground/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-primary-foreground/60">
-              © 2026 AgriWise. For educational and advisory purposes only.
+              © 2026 FarmSense. For educational and advisory purposes only.
             </p>
             <p className="text-sm text-primary-foreground/60 flex items-center gap-1">
               Made with <Heart className="w-4 h-4 text-destructive fill-destructive" /> for sustainable farming
