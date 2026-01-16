@@ -1,8 +1,9 @@
-# Welcome to your Lovable project
+# Welcome to FarmSense
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Project Name:** FarmSense – AI-Powered Agricultural Decision Support Platform
+**Website URL:** https://agriwise.lovable.app
 
 ## How can I edit this code?
 
@@ -10,64 +11,95 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Option 1: Use Lovable (Recommended)**
 
-Changes made via Lovable will be committed automatically to this repo.
+Open the FarmSense project in Lovable.
 
-**Use your preferred IDE**
+Edit the project by giving prompts.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Any changes made in Lovable are automatically saved and committed to the GitHub repository.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Option 2: Use Your Own IDE (Local Development)**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+You can work on the project locally using your preferred code editor.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Requirements
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Node.js
 
-**Edit a file directly in GitHub**
+npm
+(You can install Node.js using nvm)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Steps to Run Locally
 
-**Use GitHub Codespaces**
+Step 1: Clone the repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Step 2: Go to the project folder
+
+Step 3: Install dependencies
+
+Step 4: Start the development server
+
+This will start the project with live reloading and a preview.
+
+
+**Option 3: Edit Directly on GitHub**
+
+Open the required file in the GitHub repository.
+
+Click the Edit (pencil) icon.
+
+Make changes and commit them.
+
+Changes will reflect in Lovable automatically.
+
+
+**Option 4: Use GitHub Codespaces**
+
+Go to the repository main page.
+
+Click the Code button.
+
+Open the Codespaces tab.
+
+Click New Codespace.
+
+Edit files directly in the browser and push changes when done.
 
 ## What technologies are used for this project?
 
-This project is built with:
+FarmSense is built using the following technologies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite
 
-## How can I deploy this project?
+TypeScript
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+React
 
-## Can I connect a custom domain to my Lovable project?
+shadcn/ui
 
-Yes, you can!
+Tailwind CSS
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**How Can I Deploy This Project?**
+
+Open the project in Lovable.
+
+Click Share → Publish.
+
+The website will be deployed automatically.
+
+
+**Can I Connect a Custom Domain?**
+
+Yes, you can connect a custom domain to FarmSense.
+
+Steps:
+
+Go to Project → Settings → Domains
+
+Click Connect Domain
+
+Follow the instructions to link your domain
