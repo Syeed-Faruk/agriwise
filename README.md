@@ -34,13 +34,13 @@ npm
 
 Steps to Run Locally
 
-Step 1: Clone the repository
+**Step 1:** Clone the repository
 
-Step 2: Go to the project folder
+**Step 2:** Go to the project folder
 
-Step 3: Install dependencies
+**Step 3:** Install dependencies
 
-Step 4: Start the development server
+**Step 4:** Start the development server
 
 This will start the project with live reloading and a preview.
 
